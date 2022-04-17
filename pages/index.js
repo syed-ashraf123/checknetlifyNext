@@ -1,7 +1,7 @@
 import { useState } from "react";
 export default function Home() {
   // const [user, setUser] = useState(res[0] ? res[0] : {});
-  const user = {};
+  const user = {name:"syed",age:26};
   return (
     <>
       <h1>
